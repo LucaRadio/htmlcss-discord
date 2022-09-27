@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 920px;
+    margin: auto;
+}
+
+svg {
+    cursor: pointer;
+}
+
+/* Header */
+nav {
+    background-color: #255ee9;
+    height: 60px;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    column-gap: 1rem;
+    list-style: none;
+
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+li>a:hover {
+    text-decoration: underline;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #255ee9;
+    height: 2rem;
+}
+
+.link {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.login,
+.logo {
+    min-width: 20%;
+    height: 100%;
+}
+
+.login {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+/* Pulsanti */
+
+button {
+    border: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+
+.btn-container>button:first-child {
+    margin-right: 2rem;
+}
+
+.btn-main {
+    padding: 0.7rem 1rem;
+}
+
+.btn-font-white {
+    color: white;
+}
+
+.btn-black {
+    background-color: #23272a;
+}
+
+.btn-indigo {
+    background-color: #8ea1e1;
+}
+
+/* Sezioni */
+.start-section h1 {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.start-section p {
+    font-size: 1.2rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.start-section {
+    text-align: center;
+    width: 80%;
+}
+
+.blue-bg {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grey-bg {
+    background-color: #f6f6f6;
+}
+
+
+.black-bg {
+    background-color: #23272A;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+
+}
+
+.col {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 1;
+    padding: 3rem;
+}
+
+.col-2 h2 {
+    font-size: 2rem;
+}
+
+.col-2 p {
+    padding-top: 1rem;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+/* Ultima Riga */
+.last-row-text {
+    padding: 60px 60px 0px 60px;
+    text-align: center;
+}
+
+.last-row-text h2 {
+    font-size: 2rem;
+}
+
+.last-row-text p {
+    padding-top: 1rem;
+}
+
+.download-button {
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 30px;
+}
+
+.download-button h2 {
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+
+.col-3 {
+    padding: 10px;
+    flex-grow: 1;
+
+}
+
+.col-4 {
+    flex-grow: 2;
+    max-width: 30%;
+
+}
+
+.col-4>* {
+    margin-bottom: 1rem;
+}
+
+.col-4 h2 {
+    font-size: 2rem;
+    color: #748cdf;
+
+}
+
+.social {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+span,
+span>i,
+a>i {
+    color: white;
+    cursor: pointer;
+}
+
+.col-3 ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 10px;
+}
+
+.col-3 ul li:first-child {
+    cursor: pointer;
+}
+
+.col-3 ul li:not(:first-child):hover {
+    text-decoration: underline;
+}
+
+.title {
+    color: #748cdf;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+
+section.black-bg {
+    padding-top: 2rem;
+}
+
+.wave,
+.wave-reverse {
+    color: #f6f6f6;
+    margin: -10px;
+}
+
+.wave-reverse {
+    transform: rotate(180deg);
+}
