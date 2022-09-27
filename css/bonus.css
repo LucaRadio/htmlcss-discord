@@ -101,8 +101,23 @@ button {
     background-color: #23272a;
 }
 
+.btn-black:hover {
+    background-color: #36393f;
+    color: white;
+}
+
 .btn-indigo {
-    background-color: #8ea1e1;
+    background-color: #829beb;
+}
+
+.btn-indigo:hover {
+    background-color: #7b82d7;
+    color: white;
+}
+
+button:hover {
+    box-shadow: -5px 3px 10px 1px #36393f;
+    color: #5865f2;
 }
 
 /* Sezioni */
